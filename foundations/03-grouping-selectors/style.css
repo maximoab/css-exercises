@@ -1,0 +1,13 @@
+.buttons {
+	font-size: 28px;
+	font-family: helvetica, "Times New Roman", sans-serif;
+}
+
+.fist {
+	background-color: hsl(0,0%,0%);
+	color: #fff;
+}
+
+.second {
+	background-color: rgb(180, 150, 70);
+}
