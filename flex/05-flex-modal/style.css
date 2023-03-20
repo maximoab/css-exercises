@@ -20,6 +20,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1.4rem;
+  display: flex;
+  gap: 1.4rem;
 }
 
 .icon {
@@ -33,6 +36,26 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.text {
+  margin-bottom: 1.4rem;
 }
 
 .close-button {
